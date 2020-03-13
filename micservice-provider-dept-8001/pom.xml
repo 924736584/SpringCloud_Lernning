@@ -24,13 +24,17 @@
             <artifactId>junit</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.easyproject</groupId>
-            <artifactId>ojdbc7</artifactId>
+          <groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+</dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>

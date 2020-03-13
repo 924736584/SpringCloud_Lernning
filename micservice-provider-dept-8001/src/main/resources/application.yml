@@ -9,10 +9,10 @@ spring:
   application:
     name: micservice-dept-service  #应用名称
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521:orcl
-    username: C##song
-    password: toor
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Aa123456
+    url: jdbc:mysql://120.27.240.124:3306/springcloud
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
